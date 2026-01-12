@@ -1,0 +1,152 @@
+
+
+/* ---------- GLOBAL SAFETY ---------- */
+/* * {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- HEADER (About + Image) ---------- */
+ /* .header {
+  display: flex;
+  flex-wrap: wrap;
+} */
+ @media (max-width: 768px) {
+  .menu-btn {
+    display: inline;
+    margin-right: 50px;
+  }
+
+  .nav-menu {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background: rgb(5, 5, 93);
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+  
+}
+
+@media (max-width: 992px) {
+  .header {
+    height: auto;
+    padding-bottom: 40px;
+  }
+
+  .l {
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .r {
+    float: none;
+    margin: 30px auto 0 auto;
+  }
+
+  h4 {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .p1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%;
+  }
+}
+
+/* ---------- NAVBAR ---------- */
+ @media (max-width: 768px) {
+  .nav {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 12px;
+  }
+}
+
+/* ---------- ALL FLEX SECTIONS ---------- */
+/* Box / Container / Container2 / Container3 / box4 */
+.Box,
+.Box2,
+.Container,
+.Container2,
+.Container3,
+.box4 {
+  flex-wrap: wrap;
+  height: auto;
+  padding:40px 1px;
+  gap: 20px;
+} 
+
+/* ---------- ALL CARDS / ITEMS ---------- */
+/* l1 l2 l3 r1 r2 r3 */
+/* .l1, .l2, .l3,
+.r1, .r2, .r3, */
+/* item1–item11 */
+/* .item1, .item2, .item3, .item4,
+.item5, .item6, .item7, .item8,
+.item9, .item10, .item11, */
+/* v i a */
+ .v, .i, .a {
+  width: 100%;
+  max-width: 260px;
+}
+
+/* ---------- SMALL MOBILE ---------- */
+ @media (max-width: 576px) {
+
+  .r {
+    width: 220px;
+    height: 220px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  .p1 {
+    font-size: 15px;
+  }
+
+  .Box,
+  .Box2,
+  .Container,
+  .Container2,
+  .Container3,
+  .box4 {
+    padding: 30px 10px;
+  }
+}  
