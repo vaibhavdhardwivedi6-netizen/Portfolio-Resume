@@ -115,7 +115,7 @@ img {
 .Container3,
 .box4 {
   flex-wrap: wrap;
-  height: auto;
+  height: 250px;
   padding:40px 1px;
   gap: 20px;
 } 
