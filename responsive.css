@@ -33,6 +33,7 @@ img {
 
   .p1 {
     font-size: 15px;
+    height: auto;
 
   }
 
@@ -89,6 +90,7 @@ img {
     margin-right: auto;
     text-align: center;
     width: 90%;
+    height: auto;
   }
 }
 
@@ -197,6 +199,8 @@ h6 {
 
   .p1 {
     font-size: 15px;
+    height: auto;
+    width: 210px;
   }
 
   .Box,
