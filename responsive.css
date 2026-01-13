@@ -16,16 +16,21 @@ img {
 }
 
 /* ---------- HEADER (About + Image) ---------- */
- /* .header {
-  display: flex;
-  flex-wrap: wrap;
-} */
+ 
  @media (max-width: 768px) {
   .menu-btn {
     display: inline;
     margin-right: 50px;
   }
-
+   #About{
+    font-size: 25px;
+    width: 350px;
+    padding-left: 5px;
+   }
+   .p1{
+    font-size: 15px;
+    
+   }
   .nav-menu {
     position: absolute;
     top: 70px;
@@ -42,6 +47,10 @@ img {
   .nav-menu.active {
     display: flex;
   }
+  .r{
+    padding-right: 50px;
+  }
+  
   
 }
 
@@ -59,7 +68,7 @@ img {
   }
 
   .r {
-    float: none;
+  
     margin: 30px auto 0 auto;
   }
 
@@ -112,18 +121,27 @@ img {
 } 
 
 /* ---------- ALL CARDS / ITEMS ---------- */
-/* l1 l2 l3 r1 r2 r3 */
-/* .l1, .l2, .l3,
-.r1, .r2, .r3, */
+ /* l1 l2 l3 r1 r2 r3  */
+ .l1, .l2, .l3,
+.r1, .r2, .r3, 
 /* item1–item11 */
-/* .item1, .item2, .item3, .item4,
+.item1, .item2, .item3, .item4,
 .item5, .item6, .item7, .item8,
-.item9, .item10, .item11, */
+.item9, .item10, .item11, 
 /* v i a */
  .v, .i, .a {
   width: 100%;
   max-width: 260px;
+  height: 230px;
+  padding: 20px;
 }
+ .p2,.p3,.p4,.p5,.p6{
+  padding: 25px;
+  font-size:auto;
+ }
+ h6{
+  padding: 25px;
+ }
 
 /* ---------- SMALL MOBILE ---------- */
  @media (max-width: 576px) {
@@ -149,4 +167,5 @@ img {
   .box4 {
     padding: 30px 10px;
   }
+  
 }  
